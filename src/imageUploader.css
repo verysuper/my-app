@@ -1,0 +1,28 @@
+.wrapper {
+    padding:20px;
+}
+.drop_zone {
+    display: flex;
+    height: 200px;
+    width: 100%;
+    background: white;
+    background-image: url("https://www.google.com/url?sa=i&url=https%3A%2F%2Ficons8.com%2Ficon%2F368%2Fupload&psig=AOvVaw3Rnycs-uHQHCPvzFl53Kji&ust=1600783836566000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCIC_tdG2-usCFQAAAAAdAAAAABAI");
+    background-repeat: no-repeat;
+    background-size: 100px;
+    background-position: center;
+    background-color: #ffffff;
+    cursor: pointer;
+    border: 2px dashed #ccc;
+    border-radius: 6px;
+    margin-bottom: 25px;
+    background-position: center 28px;
+}
+.drop_zone>p {
+    margin: auto;
+}
+.image{
+    width: 200px;
+    height: 200px;
+    border-radius: 4px;
+    display: inline-block;
+}

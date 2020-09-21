@@ -1,12 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+import App from './ImageUploader';
 import * as serviceWorker from './serviceWorker';
+import ImageUploader from "./ImageUploader";
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <ImageUploader />
   </React.StrictMode>,
   document.getElementById('root')
 );
